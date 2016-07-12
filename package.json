@@ -1,0 +1,38 @@
+{
+  "name": "latest-popular-post-unanswered",
+  "version": "1.0.0",
+  "description": "Hacking for my job application in Auth0 & Just for fun ;)",
+  "main": "popular-post-unanswered.js",
+  "scripts": {
+    "test": "mocha ./tdd.js",
+    "try": "curl https://webtask.it.auth0.com/api/run/wt-miguelsansegundo-gmail_com-0/popular-post-unanswered?webtask_no_cache=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miksansegundo/latest-popular-post-unanswered.git"
+  },
+  "keywords": [
+    "node",
+    "webtask",
+    "mongodb",
+    "mongoose",
+    "tdd"
+  ],
+  "author": "Miguel San Segundo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miksansegundo/latest-popular-post-unanswered/issues"
+  },
+  "homepage": "https://github.com/miksansegundo/latest-popular-post-unanswered#readme",
+  "dependencies": {
+    "mongoose": "^4.5.3",
+    "require": "^2.4.20",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "sinon-mongoose": "^1.2.1"
+  }
+}
